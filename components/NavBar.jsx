@@ -42,7 +42,7 @@ const Navbar = () => (
             <MenuItem id='menu-list-3' icon={<FcAbout />}>Buy Property</MenuItem>
           </Link>
           <Link href="/search?purpose=for-rent" passHref>
-            <MenuItem d='menu-list-4' icon={<FiKey />}>Rent Property</MenuItem>
+            <MenuItem id='menu-list-4' icon={<FiKey />}>Rent Property</MenuItem>
           </Link>
         </MenuList>
       </Menu>
